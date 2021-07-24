@@ -3,14 +3,22 @@ import PropTypes from 'prop-types'
 
 import { withErrorApi } from '@hoc/withErrorApi'
 import PeopleList from '@components/PeoplePage/PeopleList'
-import { getApiResource } from '@utils/network'
-import { getPeopleId, getPeopleImage } from '@services/getPeopleData'
+import PeopleNavigation from '@components/PeoplePage/PeopleNavigation'
+import { getApiResource, changeHTTP } from '@utils/network'
+import { getPeopleId, getPeopleImage, getPeoplePageId } from '@services/getPeopleData'
 import { API_PEOPLE } from '@constants/api'
+import { useQueryParams } from '@hooks/useQueryParams'
 
 import styles from './PeoplePage.module.css'
 
 const PeoplePage = ({ setErrorApi }) => {
   const [people, setPeople] = useState(null)
+  const [prevPage, setPrevPage] = useState(null)
+  const [nextPage, setNextPage] = useState(null)
+  const [counterPage, setCounterPage] = useState(1)
+
+  const query = useQueryParams()
+  const queryPage = query.get('page')
 
   const getResource = async (url) => {
     const res = await getApiResource(url)
@@ -28,23 +36,29 @@ const PeoplePage = ({ setErrorApi }) => {
       })
   
       setPeople(peopleList)
-      // eslint-disable-next-line no-undef
+
+      setPrevPage(changeHTTP(res.previous))
+      setNextPage(changeHTTP(res.next))
+      setCounterPage(getPeoplePageId(url))
       setErrorApi(false)
     } else {
-      // eslint-disable-next-line no-undef
       setErrorApi(true)
     }
   }
 
   useEffect(() => {
-    getResource(API_PEOPLE)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    getResource(API_PEOPLE+queryPage)
   }, [])
 
   return ( //people из useState()
     <>
-      <h1>Navigation</h1>
-        {people && <PeopleList people={people}/>}
+      <PeopleNavigation
+        getResource={getResource}
+        prevPage={prevPage}
+        nextPage={nextPage}
+        counterPage={counterPage}
+      />
+      {people && <PeopleList people={people}/>}
       </>
   )
 }
