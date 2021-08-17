@@ -18,8 +18,9 @@
 
   --width-max: 900px;
 
-  --spacing-medium: 20px;
   --spacing-large:  35px;
+  --spacing-medium: 20px;
+  --spacing-small: 10px;
 
   --text-shadow-yellow:
     0 0 2px var(--color-white),
