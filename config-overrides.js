@@ -14,7 +14,8 @@ module.exports = function override(config, env) {
     '@styles': 'src/styles',
     '@static': 'src/static',
     '@ui': 'src/components/UI',
-    '@store': 'src/store'
+    '@store': 'src/store',
+    '@context': 'src/context'
   })(config)
 
   return config
