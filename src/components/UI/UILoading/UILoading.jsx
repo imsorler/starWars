@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
+
 import PropTypes from 'prop-types'
 import cn from 'classnames'
-
 import loaderBlack from './img/loader-black.svg'
 import loaderWhite from './img/loader-white.svg'
 import loaderBlue from './img/loader-blue.svg'
