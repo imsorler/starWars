@@ -1,16 +1,41 @@
-# STAR-WARS
-В этом проекте вы можете посмотреть героев вселенной звездных войн, а так же информацию про отдельно взятого персонажа.
+# Star Wars Application
 
-## Available Scripts
-Для запуска проекта используйте:
+-[Ссылка на проект](https://imsorler.github.io/starWars/)
+-[Ссылка на репозиторий](https://github.com/imsorler/starWars)
 
-### `npm start`
-Сервер откроется на [http://localhost:3000](http://localhost:3000)
+## Скрипты
+```bash
+npm start
+npm build
+```
 
-### `npm run build`
+### React Router
+- Базовый роутинг
+- URL Parameters
+- Query Parameters
+- Обработка страницы 404 (Not Found)
+- Хуки useLocation и useHistory
 
-Как ни странно сложит проект в `build` 
+### Redux
+- Базовая структура react-redux-приложения
+- Хуки useDispatch, useSelector
+- Redux Middleware
+- Создание асинхронных action с библиотекой redux-thunk
+- Отслеживание состояния store с redux-devtools-extension
 
-### `npm run eject`
+### JavaScript
+- Методы работы с массивами: map, filter, forEach
+- Асинхронность: Promise, Async Functions
+- ES6-модули (import и export)
+- Оператор разворота для объектов (props для компонента)
+- Деструктуризация массивов и объектов
+- Тернарные операторы
+- Работа с Local Storage
+- Работа с API с использованием Fetch
 
-**Не советую разбирать, если конечно не хотите переписать webpack config**
+### Верстка
+- CSS Custom Properties, изменение через JavaScript
+- CSS Filters
+- CSS Flexbox
+- CSS Multi Columns
+- Стилизация скроллбара
