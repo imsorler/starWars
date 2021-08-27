@@ -52,10 +52,14 @@
   --theme-neitral-header: #cccc46;
   --theme-default-header: var(--theme-neitral-header);
 
-  --theme-light-bgimage:   linear-gradient(to right top, #77e9f4, #50c2bc, #359c84, #277650, #1d511f);
-  --theme-dark-bgimage:    linear-gradient(to right top, #4e1c22, #5d2038, #662954, #633774, #4e4a94);
+  --theme-light-bgimage:   linear-gradient(to right bottom, #b9b9b9, #adbcd3, #80c6e4, #36d2dd, #00d9b8, #00d9b8, #00dab9, #00dab9, #38d4df, #83c9e7, #b0c0d7, #bebebe);
+  --theme-dark-bgimage:    linear-gradient(to right bottom, #000000, #15080b, #210f12, #2e1317, #3b161a, #3f1920, #421c25, #45202b, #3d2431, #352833, #2e2b31, #2c2c2c);
   --theme-neitral-bgimage: url(@static/bg.jpg);
   --theme-default-bgimage: var(--theme-neitral-bgimage);
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
 }
 
 body {
