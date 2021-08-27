@@ -1,6 +1,7 @@
 {
   "name": "star-wars",
   "version": "0.1.0",
+  "homepage": "https://imsorler.github.io/starWars/",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.1",
