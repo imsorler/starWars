@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5efb4bbf.chunk.css",
+    "main.js": "/static/js/main.99ea3797.chunk.js",
+    "main.js.map": "/static/js/main.99ea3797.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6e145764.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6e145764.js.map",
+    "static/js/2.9a19d474.chunk.js": "/static/js/2.9a19d474.chunk.js",
+    "static/js/2.9a19d474.chunk.js.map": "/static/js/2.9a19d474.chunk.js.map",
+    "static/css/3.1685e2dd.chunk.css": "/static/css/3.1685e2dd.chunk.css",
+    "static/js/3.b94690bd.chunk.js": "/static/js/3.b94690bd.chunk.js",
+    "static/js/3.b94690bd.chunk.js.map": "/static/js/3.b94690bd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/3.1685e2dd.chunk.css.map": "/static/css/3.1685e2dd.chunk.css.map",
+    "static/css/main.5efb4bbf.chunk.css.map": "/static/css/main.5efb4bbf.chunk.css.map",
+    "static/js/2.9a19d474.chunk.js.LICENSE.txt": "/static/js/2.9a19d474.chunk.js.LICENSE.txt",
+    "static/media/404.34c22b4f.png": "/static/media/404.34c22b4f.png",
+    "static/media/backArrow.6f77dd72.svg": "/static/media/backArrow.6f77dd72.svg",
+    "static/media/index.css": "/static/media/bg.2dec7934.jpg",
+    "static/media/bookmark.f8abaafb.svg": "/static/media/bookmark.f8abaafb.svg",
+    "static/media/cancel.17825c74.svg": "/static/media/cancel.17825c74.svg",
+    "static/media/dark.9a3c2148.png": "/static/media/dark.9a3c2148.png",
+    "static/media/droid.de165dd8.svg": "/static/media/droid.de165dd8.svg",
+    "static/media/favorite-yellow.c45157fe.svg": "/static/media/favorite-yellow.c45157fe.svg",
+    "static/media/favorite.00d70c38.svg": "/static/media/favorite.00d70c38.svg",
+    "static/media/light-saber.bc959dfe.svg": "/static/media/light-saber.bc959dfe.svg",
+    "static/media/light.56e787ab.jpg": "/static/media/light.56e787ab.jpg",
+    "static/media/loader-black.11246c85.svg": "/static/media/loader-black.11246c85.svg",
+    "static/media/loader-blue.9455e3b6.svg": "/static/media/loader-blue.9455e3b6.svg",
+    "static/media/loader-white.ae583cbc.svg": "/static/media/loader-white.ae583cbc.svg",
+    "static/media/neitral.afe9f5bb.jpg": "/static/media/neitral.afe9f5bb.jpg",
+    "static/media/space-station.7a027c6e.svg": "/static/media/space-station.7a027c6e.svg",
+    "static/media/tv.20bd7698.mp4": "/static/media/tv.20bd7698.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e145764.js",
+    "static/js/2.9a19d474.chunk.js",
+    "static/css/main.5efb4bbf.chunk.css",
+    "static/js/main.99ea3797.chunk.js"
+  ]
+}
